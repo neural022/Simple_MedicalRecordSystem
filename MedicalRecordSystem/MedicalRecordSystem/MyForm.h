@@ -448,7 +448,7 @@ namespace MedicalRecordSystem {
 				this->textBox6->Text = "";
 			}
 		}
-		catch (Exception ^ e)
+		catch (Exception ^e)
 		{
 			MessageBox::Show("血壓不能為空!", "錯誤訊息", MessageBoxButtons::OK, MessageBoxIcon::Warning);
 		}
@@ -457,7 +457,7 @@ namespace MedicalRecordSystem {
 	private: System::Void openToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) 
 	{
 		openFileDialog1->InitialDirectory = "c:\\";
-		openFileDialog1->Filter = "txt files (*.txt)|*.txt|All files(*.*)|*.*"; //所開的檔案為txt檔
+		openFileDialog1->Filter = "txt files (*.txt)|*.txt|All files(*.*)|*.*"; //	所開的檔案為txt檔
 		openFileDialog1->FilterIndex = 2;
 		openFileDialog1->RestoreDirectory = true;
 
@@ -541,14 +541,14 @@ namespace MedicalRecordSystem {
 	private: System::Void saveAsToolStripMenuItem_Click(System::Object^  sender, System::EventArgs^  e) 
 	{
 		SaveFileDialog^ saveFileDialog1 = gcnew SaveFileDialog;
-		saveFileDialog1->InitialDirectory = "c:\\"; //打開時預設位置在C:
-		saveFileDialog1->Filter = "txt files (*.txt)|*.txt|All files(*.*)|*.*"; //存成txt檔
+		saveFileDialog1->InitialDirectory = "c:\\"; //	打開時預設位置在C:
+		saveFileDialog1->Filter = "txt files (*.txt)|*.txt|All files(*.*)|*.*"; //	存成txt檔
 		saveFileDialog1->FilterIndex = 2;
 		saveFileDialog1->RestoreDirectory = true; openFileDialog1->RestoreDirectory = true;
 
 		if (saveFileDialog1->ShowDialog() == System::Windows::Forms::DialogResult::OK)
 		{
-			if ((saveFileDialog1->FileName) != nullptr) //所存的檔案不是空的
+			if ((saveFileDialog1->FileName) != nullptr) //	所存的檔案不是空的
 			{
 				try
 				{

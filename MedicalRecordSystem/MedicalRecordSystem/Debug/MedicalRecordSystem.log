@@ -1,5 +1,5 @@
 ﻿  MyForm.cpp
-c:\users\asuna\downloads\medicalrecordsystem\medicalrecordsystem\MyForm.h(451): warning C4101: 'e': 未參考的區域變數
+c:\users\asuna\desktop\github_file\simple_medicalrecordsystem\medicalrecordsystem\medicalrecordsystem\MyForm.h(451): warning C4101: 'e': 未參考的區域變數
   MyForm.obj : Managed 程式碼存在時不支援 /DEBUG:FASTLINK; 正在以 /DEBUG:FULL 重新啟動連結
-  MedicalRecordSystem.vcxproj -> C:\Users\Asuna\Downloads\MedicalRecordSystem\Debug\MedicalRecordSystem.exe
-  MedicalRecordSystem.vcxproj -> C:\Users\Asuna\Downloads\MedicalRecordSystem\Debug\MedicalRecordSystem.pdb (Partial PDB)
+  MedicalRecordSystem.vcxproj -> C:\Users\Asuna\Desktop\github_file\Simple_MedicalRecordSystem\MedicalRecordSystem\Debug\MedicalRecordSystem.exe
+  MedicalRecordSystem.vcxproj -> C:\Users\Asuna\Desktop\github_file\Simple_MedicalRecordSystem\MedicalRecordSystem\Debug\MedicalRecordSystem.pdb (Partial PDB)
